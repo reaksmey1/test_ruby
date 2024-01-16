@@ -16,7 +16,7 @@ class GenerateISBN
         sum_digit
     end
 
-    def calculate_last_digit(sum_digit
+    def calculate_last_digit(sum_digit)
         modulo = 10 - (sum_digit % 10)
         modulo == 10 ? 0 : modulo
     end
